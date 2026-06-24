@@ -33,7 +33,3 @@ jobs:
           tags: |
             ghcr.io/dasooni/skills-publish-docker-images/stackoverflown:main
             ghcr.io/dasooni/skills-publish-docker-images/stackoverflown:${{ github.sha }}  
-      # - name: Build and push Docker image
-      #   run: |
-      #     docker build . --tag ghcr.io/dasooni/skills-publish-docker-images/stackoverflown:main
-      #     docker push ghcr.io/dasooni/skills-publish-docker-images/stackoverflown:main
